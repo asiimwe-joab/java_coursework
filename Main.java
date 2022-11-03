@@ -6,13 +6,14 @@ public class Main {
         for (String temp: strArray){
             System.out.println(temp);
         }
-        for(int K=0; K<4; K++){
-            char[] D1 = strArray[K].toCharArray();
-            for (int N = D1.length-1; N>=0; N--)
+        for(int i=0; i<4; i++){
+            char[] D1 = strArray[i].toCharArray();
+            for (int m = D1.length-1; m>=0; m--)
         {
-            System.out.print(D1[N]);
+         
+            System.out.println(D1[m]);
         }
-            System.out.print(" ");
+            System.out.println(" ");
         }
     }    }
 
